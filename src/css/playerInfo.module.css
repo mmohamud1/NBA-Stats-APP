@@ -1,0 +1,56 @@
+.heading {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--grey-light-1);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.playername {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.playerinfo {  
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    color: var(--primary-color);
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 800;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: var(--grey-light-1);
+    box-shadow: 0 1rem 2rem rgba(41, 43, 44, .15);
+    transform: translateY(-2px);
+    cursor: pointer;
+}

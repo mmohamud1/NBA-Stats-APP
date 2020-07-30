@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #0000f2;
+    --bg-dark:	#000058;
+    --bg-light: #0000a5;
+    --grey-light-1: #cccccc;
+    --grey-light-2: #999;
+    --grey-dark-1: #1f1f1f;
+    --grey-dark-2: #333333;
+    --grey-dark-3: #595959;
+    
+}
+
+.form {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+  
+.bar {
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--primary-color);
+    background-color: #0b0b0b;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10000px;
+    width: 40%;
+    transition: all .2s;
+    margin-right: -35px;
+    margin-top: 20px;
+}
+
+.bar:focus {
+    outline: none;
+    width: 50%;
+    background-color: #000;
+}
+
+.button {
+    border: none;
+    background-color: #0b0b0b;
+    margin-top: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    fill: var(--grey-light-2);
+}
