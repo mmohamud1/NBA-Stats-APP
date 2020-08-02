@@ -13,29 +13,33 @@ const App = () => {
   
   // Get players by name 
   const getPlayers = async (input) => {
-
-    const res = await axios.get(`https://www.balldontlie.io/api/v1/players?search=${input}`);
-    //console.log(res.data.data);
-    setPlayer(res.data.data);
+  
+      const res = await axios.get(`https://www.balldontlie.io/api/v1/players?search=${input}`);
+      //console.log(res.data.data);
+      setPlayer(res.data.data);  
   };
 
   
   // get playerID 
   const getPlayerId = async (input) => {
-
-    const res = await axios.get(`https://www.balldontlie.io/api/v1/players?search=${input}`);
-    //console.log(res.data.data[0].id);
-    setPlayerId(res.data.data[0].id);
+    
+    try {
+      const res = await axios.get(`https://www.balldontlie.io/api/v1/players?search=${input}`);
+      //console.log(res.data.data[0].id);
+      setPlayerId(res.data.data[0].id);
+    } catch (error) {
+      alert('Player does not exist. Try full name e.g Kyrie Irving')
+    }
   };
   
   
   // get player stats by ID 
   const getStats = async (playerId) => {
     
-    const res = await axios.get(`https://www.balldontlie.io/api/v1/season_averages?season=2019&player_ids[]=${playerId}`);
-    //console.log(res.data.data);
-    setStats(res.data.data)
-    
+      const res = await axios.get(`https://www.balldontlie.io/api/v1/season_averages?season=2019&player_ids[]=${playerId}`);
+      console.log(res.data.data);
+      setStats(res.data.data)
+
   };
   
 
