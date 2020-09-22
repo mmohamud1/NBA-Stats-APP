@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function PlayerStats({ gamesPlayed, mins, fieldGoalPct, freeThrowpPct, threePtPct, rebounds, turnover, assist, steals, blocks, points}) {
     return (
