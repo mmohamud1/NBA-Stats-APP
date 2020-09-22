@@ -5,7 +5,7 @@ const PlayerInfo = ({ first, last, position, heightF, heightI, weight, team, pla
   
     const onClick = () => {
         getStats(playerId);       
-    }
+    };
 
     return (
         <div>
@@ -21,4 +21,4 @@ const PlayerInfo = ({ first, last, position, heightF, heightI, weight, team, pla
     )
 }
 
-export default PlayerInfo
+export default PlayerInfo;
