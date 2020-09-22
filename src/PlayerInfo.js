@@ -19,6 +19,6 @@ const PlayerInfo = ({ first, last, position, heightF, heightI, weight, team, pla
             </div>
         </div>
     )
-}
+};
 
 export default PlayerInfo;
