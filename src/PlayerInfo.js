@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import style from './css/playerInfo.module.css'
 
 const PlayerInfo = ({ first, last, position, heightF, heightI, weight, team, playerId, getStats}) => {
