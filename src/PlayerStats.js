@@ -39,4 +39,4 @@ function PlayerStats({ gamesPlayed, mins, fieldGoalPct, freeThrowpPct, threePtPc
     )
 };
 
-export default PlayerStats
+export default PlayerStats;
