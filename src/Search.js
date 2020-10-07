@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState} from 'react';
 import style from './css/search.module.css'
 
 
