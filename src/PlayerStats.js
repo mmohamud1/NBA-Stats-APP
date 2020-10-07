@@ -37,6 +37,6 @@ function PlayerStats({ gamesPlayed, mins, fieldGoalPct, freeThrowpPct, threePtPc
             </table>
         </div>
     )
-}
+};
 
 export default PlayerStats
