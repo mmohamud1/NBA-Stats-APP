@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import style from './css/search.module.css'
+import style from './css/search.module.css';
 
 
 const Search = ({ getPlayers, getPlayerId, getStats }) => {
