@@ -41,7 +41,7 @@ const Search = ({ getPlayers, getPlayerId, getStats }) => {
             </form>
         </div>
     )
-}
+};
 
 export default Search
 
