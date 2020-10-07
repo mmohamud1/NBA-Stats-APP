@@ -17,7 +17,7 @@ const Search = ({ getPlayers, getPlayerId, getStats }) => {
             setSearch('');
             getStats('')
         }
-    }
+    };
 
 
     const onChange = (e) => {
