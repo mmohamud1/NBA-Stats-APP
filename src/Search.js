@@ -43,6 +43,6 @@ const Search = ({ getPlayers, getPlayerId, getStats }) => {
     )
 };
 
-export default Search
+export default Search;
 
 
